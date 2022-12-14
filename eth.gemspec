@@ -7,7 +7,7 @@ $LOAD_PATH.unshift lib unless $LOAD_PATH.include? lib
 require "eth/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "fantasy-revolution-eth"
+  spec.name = "eth"
   spec.version = Eth::VERSION
   spec.authors = ["Steve Ellis", "Afri Schoedon"]
   spec.email = ["email@steveell.is", "ruby@q9f.cc"]
